@@ -1,0 +1,16 @@
+{
+  "name": "ngx-modelling",
+  "version": "0.0.0",
+  "description": "Angular ViewModels used in the Angular Studio workspace",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "public-api.ts"
+    },
+    "dest": "dist"
+  },
+  "scripts": {
+    "update-npm": "npm version patch && npm publish"
+  },
+  "author": "David Donovan",
+  "license": "MIT"
+}
