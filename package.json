@@ -11,8 +11,8 @@
     "Build:Watch:Hook": "node ./node_modules/typescript/bin/tsc git-hooks/pre-push.ts -w"
   },
   "dependencies": {
-    "@types/node": "^13.11.1",
-    "tslib": "^1.10.0"
+    "@types/node": "^13.13.15",
+    "tslib": "^1.13.0"
   },
   "devDependencies": {
     "project-control": "^0.0.15"
