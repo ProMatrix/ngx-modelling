@@ -5,6 +5,7 @@
   "scripts": {
     "Npm:Install": "npm install",
     "Npm:Update": "npm update",
+    "Build:Watch:Hook": "node ./node_modules/typescript/bin/tsc ../git-hooks/pre-push.ts -w",
     "package-ng2-express": "ng-packagr -p projects/ng2-express/package.json",
     "postinstall": "ngcc"
   },
