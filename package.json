@@ -13,8 +13,5 @@
   "dependencies": {
     "@types/node": "^13.13.15",
     "tslib": "^1.13.0"
-  },
-  "devDependencies": {
-    "project-control": "^0.0.15"
   }
 }
