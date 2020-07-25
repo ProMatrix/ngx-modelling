@@ -1,4 +1,5 @@
 Project Notes:
+Make sure you are in the npm branch
 
 Start Build:Watch before making changes to git-hooks
 Use Build:Watch to interactively make changes while debugging
