@@ -109,3 +109,13 @@ export class BuildResponse {
     consoleText = '';
     versionNo = '';
 }
+
+export class NgProject {
+    root = '';
+    sourceRoot = '';
+    projectType = '';
+}
+
+export class NgWorkspace {
+    projects = Array<NgProject>();
+}
