@@ -106,7 +106,6 @@ export class BuildConfiguration {
 
 export class BuildResponse {
     payloadType = '';
-    consoleText = '';
     versionNo = '';
 }
 
