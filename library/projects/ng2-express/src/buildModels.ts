@@ -66,6 +66,20 @@ export class AngularProject {
     angularRoot = '';
     angularProjectDir = '';
     showPanel = false;
+    ngProjectToProcess = new NgProjectToProcess();
+}
+
+export class NgProjectToProcess {
+    name = '';
+    completed = false;
+    succeeded = false;
+    statusMessage = '';
+}
+
+export class NgProcess {
+    name = '';
+    ngProjectsToProcess = Array<NgProjectToProcess>();
+    completed = false;
 }
 
 // TODO Do we still need this?
@@ -117,6 +131,7 @@ export class NgProject {
     projectType = '';
 }
 
+// TODO
 export class NgWorkspace {
     projects = Array<NgProject>();
 }
