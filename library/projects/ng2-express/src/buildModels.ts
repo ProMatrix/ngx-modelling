@@ -107,6 +107,8 @@ export class BuildConfiguration {
 export class BuildResponse {
     payloadType = '';
     versionNo = '';
+    errorMessage = '';
+    successMessage = '';
 }
 
 export class NgProject {
