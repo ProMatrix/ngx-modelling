@@ -114,7 +114,6 @@ export class BuildResponse {
     payloadType = '';
     versionNo = '';
     statusMessage = '';
-    succeeded = false;
 }
 
 export class NgProject {
