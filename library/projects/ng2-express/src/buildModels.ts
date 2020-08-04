@@ -48,7 +48,6 @@ export class AppSettings {
     apiVersions = new ApiVersions();
 }
 
-
 export enum BuildTypes {
     native,
     pwa,
@@ -66,20 +65,13 @@ export class AngularProject {
     angularRoot = '';
     angularProjectDir = '';
     showPanel = false;
-    ngProjectToProcess = new NgProjectToProcess();
-}
-
-export class NgProjectToProcess {
-    name = '';
-    completed = false;
-    succeeded = false;
-    statusMessage = '';
+    ngBuildProcess = new NgProcess();
 }
 
 export class NgProcess {
-    name = '';
-    ngProjectsToProcess = Array<NgProjectToProcess>();
     completed = false;
+    succeeded = false;
+    statusMessage = '';
 }
 
 // TODO Do we still need this?
@@ -121,8 +113,8 @@ export class BuildConfiguration {
 export class BuildResponse {
     payloadType = '';
     versionNo = '';
-    errorMessage = '';
-    successMessage = '';
+    statusMessage = '';
+    succeeded = false;
 }
 
 export class NgProject {
