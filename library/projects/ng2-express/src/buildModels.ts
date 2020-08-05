@@ -69,6 +69,8 @@ export class AngularProject {
 }
 
 export class NgProcess {
+    processing = false;
+    showStatus = false;
     completed = false;
     succeeded = false;
     statusMessage = '';
@@ -116,6 +118,7 @@ export class BuildResponse {
     statusMessage = '';
 }
 
+// TODO
 export class NgProject {
     root = '';
     sourceRoot = '';
