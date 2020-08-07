@@ -57,7 +57,9 @@ export enum BuildTypes {
 
 export class AngularProject {
     name = '';
+    lintEnabled = false;
     buildEnabled = false;
+    currentProcess = '';
     buildType = BuildTypes.native;
     production = false;
     distFolder = '';
@@ -66,6 +68,7 @@ export class AngularProject {
     angularProjectDir = '';
     showPanel = false;
     ngBuildProcess = new NgProcess();
+    ngLintProcess = new NgProcess();
 }
 
 export class NgProcess {
