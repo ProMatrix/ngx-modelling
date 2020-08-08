@@ -59,7 +59,6 @@ export class AngularProject {
     name = '';
     lintEnabled = false;
     buildEnabled = false;
-    currentProcess = '';
     buildType = BuildTypes.native;
     production = false;
     distFolder = '';
@@ -117,7 +116,7 @@ export class BuildConfiguration {
 
 export class BuildResponse {
     payloadType = '';
-    versionNo = '';
+    versionNo? = '';
     statusMessage = '';
 }
 
