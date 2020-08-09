@@ -59,6 +59,10 @@ export class AngularProject {
     name = '';
     lintEnabled = false;
     buildEnabled = false;
+    uTestEnabled = false;
+    eTestEnabled = false;
+    publishEnabled = false;
+    ciCdEnabled = false;
     buildType = BuildTypes.native;
     production = false;
     distFolder = '';
@@ -68,6 +72,10 @@ export class AngularProject {
     showPanel = false;
     ngBuildProcess = new NgProcess();
     ngLintProcess = new NgProcess();
+    ngUtestProcess = new NgProcess();
+    ngEtestProcess = new NgProcess();
+    ngPublishProcess = new NgProcess();
+    ngCiCdProcess = new NgProcess();
 }
 
 export class NgProcess {
