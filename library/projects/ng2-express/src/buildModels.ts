@@ -106,6 +106,7 @@ export class DeveloperSettings {
     releaseApp = '';
     workspaceFolder = '';
     appFolder = '';
+    e2eTestFolder = '';
     appVersionType = '';
     angularProjects = Array<AngularProject>();
 }
