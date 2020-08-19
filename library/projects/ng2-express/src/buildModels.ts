@@ -55,6 +55,12 @@ export enum BuildTypes {
     tab
 }
 
+export class E2ETest {
+    name = '';
+    url = '';
+    dist = '';
+}
+
 export class AngularProject {
     name = '';
     lintEnabled = false;
@@ -76,6 +82,7 @@ export class AngularProject {
     ngEtestProcess = new NgProcess();
     ngPublishProcess = new NgProcess();
     ngCiCdProcess = new NgProcess();
+    e2ETests = Array <E2ETest>();
 }
 
 export class NgProcess {
