@@ -59,6 +59,8 @@ export class E2ETest {
     name = '';
     url = '';
     dist = '';
+    action = '';
+    enabled = false;
 }
 
 export class AngularProject {
