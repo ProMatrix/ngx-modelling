@@ -60,6 +60,7 @@ export class E2ETest {
     url = '';
     dist = '';
     action = '';
+    testMatch = Array <string>();
     enabled = false;
 }
 
