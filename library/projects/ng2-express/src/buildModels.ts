@@ -55,6 +55,13 @@ export enum BuildTypes {
     tab
 }
 
+export class E2ETask {
+    action = '';
+    query = '';
+    value = '';
+    wait = 0;
+}
+
 export class E2ETest {
     name = '';
     url = '';
@@ -62,6 +69,11 @@ export class E2ETest {
     action = '';
     testMatch = Array <string>();
     enabled = false;
+    headless? = false;
+    autoClose? = true;
+    server? = '';
+    defaultViewport? = null;
+    errorTimeout? = null;
 }
 
 export class AngularProject {
