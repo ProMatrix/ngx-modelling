@@ -57,9 +57,9 @@ export enum BuildTypes {
 
 export class E2ETask {
     action = '';
-    query = '';
-    value = '';
-    wait = 0;
+    query? = '';
+    value? = '';
+    wait? = 0;
 }
 
 export class E2ETest {
