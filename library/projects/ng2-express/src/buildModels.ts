@@ -67,9 +67,9 @@ export class E2ETest {
     url = '';
     dist = '';
     action = '';
-    testMatch = Array <string>();
     enabled = false;
     snapshotPath = '';
+    testMatch? = Array <string>();
     headless? = false;
     autoClose? = true;
     server? = '';
