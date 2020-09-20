@@ -98,6 +98,7 @@ export class AngularProject {
     ngEtestProcess = new NgProcess();
     ngPublishProcess = new NgProcess();
     ngCiCdProcess = new NgProcess();
+    npmScript = '';
     e2ETests = Array <E2ETest>();
 }
 
@@ -107,6 +108,7 @@ export class NgProcess {
     completed = false;
     succeeded = false;
     statusMessage = '';
+    npmScripts = Array <string>();
 }
 
 // TODO Do we still need this?
