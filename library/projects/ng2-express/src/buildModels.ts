@@ -108,6 +108,8 @@ export class NgProcess {
     completed = false;
     succeeded = false;
     statusMessage = '';
+    processInfoType = '';
+    processInfoMessage = '';
     npmScripts = Array <string>();
 }
 
