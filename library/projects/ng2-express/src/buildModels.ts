@@ -74,6 +74,7 @@ export class E2ETest {
     headless? = false;
     autoClose? = true;
     server? = '';
+    host? = '';
     defaultViewport? = null;
     errorTimeout? = null;
 }
