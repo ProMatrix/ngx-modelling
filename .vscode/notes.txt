@@ -8,3 +8,8 @@ Publishing this package to npm can be done 3 ways:
 1) Utilizing the Git hooks
 2) Using the scripts, package-ng2-express then update-npm
 3) From the project-control debug "npm ngx-modelling"
+
+Utilizing the Git hooks
+1) uncomment this line:         //const noop = new TaskNpmPublish
+2) then modify any file to start the compile process
+3) commit and sync will start the npm publish process
