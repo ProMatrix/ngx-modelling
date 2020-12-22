@@ -115,6 +115,7 @@ export class NgProcess {
     statusMessage = '';
     processInfoType = '';
     processInfoMessage = '';
+    runtimeScript01 = '';
     npmScripts = Array <string>();
 }
 
