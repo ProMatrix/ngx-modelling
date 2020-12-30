@@ -96,6 +96,7 @@ export class AngularProject {
     showPanel = false;
     launchProdScript = '';
     launchUatScript = '';
+    launchUutScript = '';
     environmentCwd = '';
     ngBuildProcess = new NgProcess();
     ngLintProcess = new NgProcess();
