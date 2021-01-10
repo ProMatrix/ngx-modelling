@@ -1,4 +1,3 @@
-
 export class Performance {
     date = new Date();
     responseTime = 0;
