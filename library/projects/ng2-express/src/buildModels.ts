@@ -26,6 +26,8 @@ export class ApiVersions {
     coreJs = '';
     zoneJs = '';
     googleMaps = '';
+    firebase = '';
+    angularFire = '';
 }
 
 export class AppSettings {
