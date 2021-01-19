@@ -23,6 +23,8 @@ export declare class ApiVersions {
     coreJs: string;
     zoneJs: string;
     googleMaps: string;
+    firebase: string;
+    angularFire: string;
 }
 export declare class AppSettings {
     debug: boolean;
