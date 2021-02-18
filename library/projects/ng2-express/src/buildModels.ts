@@ -64,7 +64,7 @@ export class E2ETask {
     wait? = 0;
 }
 
-export class E2ETest {
+export class UatTest {
     name = '';
     url = '';
     dist = '';
@@ -109,7 +109,7 @@ export declare class AngularProject {
     ngPublishProcess: NgProcess;
     ngCiCdProcess: NgProcess;
     npmScript: string;
-    e2ETests: E2ETest[];
+    e2ETests: UatTest[];
 }
 
 export class NgProcess {
