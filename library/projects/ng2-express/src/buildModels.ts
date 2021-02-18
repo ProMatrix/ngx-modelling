@@ -109,7 +109,7 @@ export declare class AngularProject {
     ngPublishProcess: NgProcess;
     ngCiCdProcess: NgProcess;
     npmScript: string;
-    e2ETests: UatTest[];
+    uatTests: UatTest[];
 }
 
 export class NgProcess {
