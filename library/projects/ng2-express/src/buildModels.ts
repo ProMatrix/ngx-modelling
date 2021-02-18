@@ -74,7 +74,7 @@ export class UatTest {
     errorTimeout? = null;
 }
 
-export declare class AngularProject {
+export class AngularProject {
     name: string;
     lintEnabled: boolean;
     buildEnabled: boolean;
