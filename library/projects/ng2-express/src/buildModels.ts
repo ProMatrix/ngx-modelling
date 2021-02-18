@@ -57,13 +57,6 @@ export enum BuildTypes {
     tab
 }
 
-export class E2ETask {
-    action = '';
-    query? = '';
-    value? = '';
-    wait? = 0;
-}
-
 export class UatTest {
     name = '';
     url = '';
