@@ -81,33 +81,35 @@ export class E2ETest {
     errorTimeout? = null;
 }
 
-export class AngularProject {
-    name = '';
-    lintEnabled = false;
-    buildEnabled = false;
-    uTestEnabled = false;
-    eTestEnabled = false;
-    publishEnabled = false;
-    ciCdEnabled = false;
-    buildType = BuildTypes.native;
-    production = false;
-    distFolder = '';
-    angularModule = '';
-    angularRoot = '';
-    angularProjectDir = '';
-    showPanel = false;
-    launchProdScript = '';
-    launchUatScript = '';
-    launchUutScript = '';
-    environmentCwd = '';
-    ngBuildProcess = new NgProcess();
-    ngLintProcess = new NgProcess();
-    ngUtestProcess = new NgProcess();
-    ngEtestProcess = new NgProcess();
-    ngPublishProcess = new NgProcess();
-    ngCiCdProcess = new NgProcess();
-    npmScript = '';
-    e2ETests = Array <E2ETest>();
+export declare class AngularProject {
+    name: string;
+    lintEnabled: boolean;
+    buildEnabled: boolean;
+    uTestEnabled: boolean;
+    eTestEnabled: boolean;
+    aTestEnabled: boolean;
+    publishEnabled: boolean;
+    ciCdEnabled: boolean;
+    buildType: BuildTypes;
+    production: boolean;
+    distFolder: string;
+    angularModule: string;
+    angularRoot: string;
+    angularProjectDir: string;
+    showPanel: boolean;
+    launchProdScript: string;
+    launchUatScript: string;
+    launchUutScript: string;
+    environmentCwd: string;
+    ngBuildProcess: NgProcess;
+    ngLintProcess: NgProcess;
+    ngUtestProcess: NgProcess;
+    ngEtestProcess: NgProcess;
+    ngAtestProcess: NgProcess;
+    ngPublishProcess: NgProcess;
+    ngCiCdProcess: NgProcess;
+    npmScript: string;
+    e2ETests: E2ETest[];
 }
 
 export class NgProcess {
