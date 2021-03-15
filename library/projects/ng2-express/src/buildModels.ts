@@ -94,6 +94,7 @@ export class AngularProject {
     launchUatScript: string;
     launchUutScript: string;
     environmentCwd: string;
+    environmentArt: string;
     ngBuildProcess: NgProcess;
     ngLintProcess: NgProcess;
     ngUtestProcess: NgProcess;
