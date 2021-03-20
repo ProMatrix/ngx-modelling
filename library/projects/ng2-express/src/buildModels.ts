@@ -72,7 +72,9 @@ export class UatTest {
     host? = '';
     defaultViewport? = null;
     errorTimeout? = null;
-    snapshots? = Array <string>();
+    goldenSnapshots? = Array <string>();
+    testingSnapshots? = Array <string>();
+    deltaSnapshots? = Array <string>();
 }
 
 export class AngularProject {
