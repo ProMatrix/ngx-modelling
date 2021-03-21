@@ -75,6 +75,7 @@ export class UatTest {
     goldenSnapshots? = Array <string>();
     testingSnapshots? = Array <string>();
     deltaSnapshots? = Array <string>();
+    snapshotDisplayed = '';
 }
 
 export class AngularProject {
