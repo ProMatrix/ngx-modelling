@@ -76,6 +76,7 @@ export class UatTest {
     testingSnapshots? = Array <string>();
     deltaSnapshots? = Array <string>();
     snapshotDisplayed = '';
+    selectedSnapshotIndex = 0;
 }
 
 export class AngularProject {
