@@ -146,6 +146,12 @@ export class DeveloperSettings {
     appFolder = '';
     e2eTestFolder = '';
     appVersionType = '';
+    lintCompleted = false;
+    buildCompleted = false;
+    uTestsCompleted = false;
+    eTestsCompleted = false;
+    aTestsCompleted = false;
+    publishCompleted = false;
     angularProjects = Array<AngularProject>();
 }
 
