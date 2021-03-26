@@ -112,6 +112,7 @@ export class AngularProject {
 }
 
 export class NgProcess {
+    automated = false;
     processing = false;
     showStatus = false;
     completed = false;
