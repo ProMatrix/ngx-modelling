@@ -59,19 +59,7 @@ export enum BuildTypes {
 
 export class UatTest {
     name = '';
-    url = '';
-    dist = '';
-    action = '';
     actions? = '';
-    enabled = false;
-    snapshotPath = '';
-    testMatch? = Array <string>();
-    headless? = false;
-    autoClose? = true;
-    server? = '';
-    host? = '';
-    defaultViewport? = null;
-    errorTimeout? = null;
     goldenSnapshots? = Array <string>();
     testingSnapshots? = Array <string>();
     deltaSnapshots? = Array <string>();
