@@ -23,9 +23,6 @@ export class ApiVersions {
     angular = '';
     rxJs = '';
     moment = '';
-    coreJs = '';
-    zoneJs = '';
-    googleMaps = '';
     firebase = '';
     angularFire = '';
 }

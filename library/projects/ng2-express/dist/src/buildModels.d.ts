@@ -20,9 +20,6 @@ export declare class ApiVersions {
     angular: string;
     rxJs: string;
     moment: string;
-    coreJs: string;
-    zoneJs: string;
-    googleMaps: string;
     firebase: string;
     angularFire: string;
 }
