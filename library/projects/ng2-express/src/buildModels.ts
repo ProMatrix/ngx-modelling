@@ -93,6 +93,8 @@ export class AngularProject {
     ngPublishProcess: NgProcess;
     ngCiCdProcess: NgProcess;
     npmScript: string;
+    npmSuccess: string;
+    npmFailure: string;
     uatTests: UatTest[];
 }
 
@@ -107,8 +109,8 @@ export class NgProcess {
     runtimeScript01 = '';
     runtimeScript02 = '';
     npmScripts = Array <string>();
-    npmSuccess = Array <string>();
-    npmFailure = Array <string>();
+    npmSuccesses = Array <string>();
+    npmFailures = Array <string>();
 }
 
 // TODO Do we still need this?
