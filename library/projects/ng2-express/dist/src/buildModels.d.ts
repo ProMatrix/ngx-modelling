@@ -109,6 +109,8 @@ export declare class NgProcess {
     runtimeScript01: string;
     runtimeScript02: string;
     npmScripts: string[];
+    npmSuccess: string[];
+    npmFailure: string[];
 }
 export declare class LaunchSettings {
     iisSettings: {
