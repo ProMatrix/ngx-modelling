@@ -107,6 +107,8 @@ export class NgProcess {
     runtimeScript01 = '';
     runtimeScript02 = '';
     npmScripts = Array <string>();
+    npmSuccess = Array <string>();
+    npmFailure = Array <string>();
 }
 
 // TODO Do we still need this?
