@@ -1,6 +1,6 @@
 {
   "name": "ngx-modelling",
-  "version": "1.0.29",
+  "version": "1.0.53",
   "description": "Angular ViewModels used in the Angular Studio workspace",
   "scripts": {
     "Npm:Install": "npm install",

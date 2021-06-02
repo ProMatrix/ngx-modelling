@@ -81,7 +81,6 @@ export class AngularProject {
     angularProjectDir: string;
     showPanel: boolean;
     launchProdScript: string;
-    launchUatScript: string;
     launchUutScript: string;
     environmentCwd: string;
     environmentArt: string;

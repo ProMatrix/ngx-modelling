@@ -48,27 +48,14 @@ export declare enum BuildTypes {
     popup = 2,
     tab = 3
 }
-export declare class E2ETask {
-    action: string;
-    query?: string;
-    value?: string;
-    wait?: number;
-}
-export declare class E2ETest {
+export declare class UatTest {
     name: string;
-    url: string;
-    dist: string;
-    action: string;
     actions?: string;
-    enabled: boolean;
-    snapshotPath: string;
-    testMatch?: string[];
-    headless?: boolean;
-    autoClose?: boolean;
-    server?: string;
-    host?: string;
-    defaultViewport?: any;
-    errorTimeout?: any;
+    goldenSnapshots?: string[];
+    testingSnapshots?: string[];
+    deltaSnapshots?: string[];
+    snapshotDisplayed: string;
+    selectedSnapshotIndex: number;
 }
 export declare class AngularProject {
     name: string;
@@ -76,6 +63,7 @@ export declare class AngularProject {
     buildEnabled: boolean;
     uTestEnabled: boolean;
     eTestEnabled: boolean;
+    aTestEnabled: boolean;
     publishEnabled: boolean;
     ciCdEnabled: boolean;
     buildType: BuildTypes;
@@ -86,17 +74,20 @@ export declare class AngularProject {
     angularProjectDir: string;
     showPanel: boolean;
     launchProdScript: string;
-    launchUatScript: string;
     launchUutScript: string;
     environmentCwd: string;
+    environmentArt: string;
     ngBuildProcess: NgProcess;
     ngLintProcess: NgProcess;
     ngUtestProcess: NgProcess;
     ngEtestProcess: NgProcess;
+    ngAtestProcess: NgProcess;
     ngPublishProcess: NgProcess;
     ngCiCdProcess: NgProcess;
     npmScript: string;
-    e2ETests: E2ETest[];
+    npmSuccess: string;
+    npmFailure: string;
+    uatTests: UatTest[];
 }
 export declare class NgProcess {
     processing: boolean;
@@ -109,6 +100,8 @@ export declare class NgProcess {
     runtimeScript01: string;
     runtimeScript02: string;
     npmScripts: string[];
+    npmSuccesses: string[];
+    npmFailures: string[];
 }
 export declare class LaunchSettings {
     iisSettings: {
@@ -128,6 +121,12 @@ export declare class DeveloperSettings {
     appFolder: string;
     e2eTestFolder: string;
     appVersionType: string;
+    lintCompleted: boolean;
+    buildCompleted: boolean;
+    uTestsCompleted: boolean;
+    eTestsCompleted: boolean;
+    aTestsCompleted: boolean;
+    publishCompleted: boolean;
     angularProjects: AngularProject[];
 }
 export declare class VisualProject {
