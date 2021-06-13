@@ -131,8 +131,6 @@ export class DeveloperSettings {
     executeTest = false;
     serveApp = '';
     releaseApp = '';
-    workspaceFolder = '';
-    appFolder = '';
     e2eTestFolder = '';
     appVersionType = '';
     lintCompleted = false;
